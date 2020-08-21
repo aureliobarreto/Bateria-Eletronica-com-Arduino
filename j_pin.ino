@@ -42,6 +42,7 @@ int MaxMultiplexerXtalk[8] = { -1};
 //Métodos
 #define TIMEFUNCTION millis() //NOT micros() (thresold error)
 #define fastNoteOn(_note,_velocity) { Serial.write(0x90 | 0x09); Serial.write(_note); Serial.write(_velocity);}
+#define fastNoteOff(_note,_velocity) { Serial.write(0x80| 0x09); Serial.write(_note); Serial.write(_velocity);}
 #define fastMidiCC(_number,_value) { Serial.write((0xB0 | 0x09)); Serial.write(_number); Serial.write(_value); }
 
 
@@ -614,6 +615,7 @@ class pin
           fastNoteOn(Note, v);
 
           State = Mask_Time;
+          fastNoteOff(Note, 0);
           /*
             //Piezo-Switch
             if (dual->Type == Switch && dual->State == Switch_Time )
@@ -763,6 +765,3 @@ class pin
     }
 } Pin[NPin];
 //===========================
-
-
-
