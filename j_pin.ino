@@ -269,11 +269,11 @@ class pin
           this->Type = Piezo;
           this->Note = 45;
           this->CurveForm = 99;
-          this->Gain = 80 ;
+          this->Gain = 70 ;
           this->MaskTime = 20;
           this->Retrigger = 30;
           this->ScanTime = 20;
-          this->Thresold = 30;
+          this->Thresold = 40;
           break;
 
         case P_TOM2:
@@ -615,7 +615,7 @@ class pin
           fastNoteOn(Note, v);
 
           State = Mask_Time;
-          fastNoteOff(Note, 0);
+          fastNoteOff(Note, 20);
           /*
             //Piezo-Switch
             if (dual->Type == Switch && dual->State == Switch_Time )

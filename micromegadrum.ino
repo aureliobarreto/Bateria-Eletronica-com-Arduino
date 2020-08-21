@@ -11,7 +11,20 @@
 //=>                               POR                                        <=
 //=>                       PEDRO HENRIQUE KNUP                                <=
 //=>                      facebook.com/pedroknup                              <=
-//=>                            06/06/2016                                    <=
+//=>                                                                          <=
+//=>                    ADAPTAÇÕES EM CÓDIGO POR                              <=
+//=>                      AURÉLIO ROCHA BARRETO                               <=
+//=>                  facebook.com/aurelio.barreto.96                         <=
+//=>                  aurelionadjabarreto@gmail.com                           <=
+//=>                           2020-08-21                                     <=
+//=>                                                                          <=
+//=>                 INSERÇÃO DA FUNÇÃO NOTE OFF POR                          <=
+//=>                         ROBERTO GOMES                                    <=
+//=>                           2020-08-21                                     <=
+//=>                                                                          <=
+//=>                                                                          <=
+//=>                                                                          <=
+//=>                                                                          <=
 //==============================================================================
 
 

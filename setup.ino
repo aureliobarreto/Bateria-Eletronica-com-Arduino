@@ -5,9 +5,7 @@ void setup()
 {
 
 
-  GlobalTime=TIMEFUNCTION;
-
-
+    GlobalTime=TIMEFUNCTION;
     
     //Pin[count].Time=Time+Pin[count].MaskTime;
     //MaxReadingSensor[count]=-1;
